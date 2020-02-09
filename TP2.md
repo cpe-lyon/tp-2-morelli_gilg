@@ -42,8 +42,6 @@ Pour enregistrer nos scripts dans un dossier script dans notre répertoire perso
 
 2. **En-tête du script :** Chaque script commence par la ligne ```#!/bin/bash```. Cette ligne d'en-tête appelle un interpréteur de commande, dans notre cas nous appelons Bash, le shell par défaut dans un système linux. Le _sha-bang_ (```#!```)  en tête de cette ligne indique à notre système que ce fichier est un ensemble de commandes pour l'interpréteur indiqué, cela correspond à un _nombre magique_. Après le _sha-bang_ se trouve le chemin vers le programme qui interprète les commandes de ce script.
 
-## Les Exercices 
-
 ### Exercice n°2 : Contrôle de mot de passe
 **Objectif :** écrire un script *testpwd.sh* qui demande de saisir un mot de passe et vérifie s’il correspond ou non au contenu d’une variable PASSWORD dont le contenu est codé en dur dans le script. De plus, le mot de passe saisi par l’utilisateur ne doit pas s’aﬀicher.
 
